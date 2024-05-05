@@ -1,0 +1,42 @@
+#body{
+    text-align: center;
+    background-color: thistle;
+}
+
+#f{
+    color: sienna;
+    font-weight: bold;
+    font-style: normal
+}
+
+#pf{
+    text-decoration: underline;
+    color: brown;
+    font-weight: bold;
+}
+
+#gender{
+    text-decoration: underline;
+color: brown;
+font-size: large;
+font-weight: 200;
+}
+
+#profession{
+    text-decoration: underline;
+    color: brown;
+}
+
+#reset{
+    color: springgreen;
+    font-size: large;
+    font-weight: 200;
+    text-decoration: underline;
+}
+
+#SUBMIT{
+    color: sienna;
+    font-size: large;
+    font-weight: 200;
+    text-decoration: underline;
+}
