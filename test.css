@@ -1,6 +1,12 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
 #body{
     text-align: center;
-    background-color: thistle;
+    background-image: url("images/colo.jpg");
+    background-size: cover;
 }
 
 #f{
