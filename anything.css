@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("images/pripicart.jpg");
+    background-size: cover;
+}
+#now{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.521);
+    width: 35%;
+    margin: auto;
+    padding: 2rem;
+    align-items: center;
+    border-radius: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+input{
+    width: 17rem;
+    padding: 0.5rem;
+    background-color: rgb(217, 189, 146);
+    color: blue;
+}
+
+.btn{
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+    background-color: rgb(217, 189, 146);
+    color: blue;
+}
