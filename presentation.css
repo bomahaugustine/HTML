@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("images/pexels-caio-67112.jpg");
+    background-size: cover;
+}
+p{
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+/*form container*/
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#l{
+    color: white;
+}
+
+/* form style*/
+#me{
+    background-color: rgba(0, 0, 0, 0.795);
+    width: 40%;
+    margin: auto;
+    padding: 2rem;
+    align-items: center;
+    border-radius: 2rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid #f1f1f1;
+}
+
+/*input style*/
+.U{
+    width: 15rem;
+    padding: 0.2rem;
+    background-color: rgb(241, 231, 215);
+    color: rgb(10, 10, 10);
+    border-radius: 0.4rem;
+}
+
+/*radio style*/
+#gender{
+    /*text-decoration: underline;*/
+    font-weight: bold;
+    color: white;
+}
+
+/*buttom style*/
+.reset{
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    background-color: rgba(2, 57, 102, 0.863);
+    color: white;
+}
+.SUBMIT{
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    background-color: rgba(6, 61, 97, 0.829);
+    color: white;
+}
+
+#r{
+    color: white;
+}
+
+.SUBMIT:hover {
+    opacity: 0.8;
+  }
+
+.reset:hover {
+    opacity: 0.8;
+  }
+
+  span.psw {
+    display: block;
+    float: none;
+    color: white;
+ }
